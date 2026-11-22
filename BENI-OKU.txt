@@ -1,0 +1,12 @@
+APK NASIL YAPILIR (bilgisayar gerekmez, sadece GitHub hesabi)
+
+1. github.com'da yeni bir depo (repository) olustur.
+2. Bu zip'in icindeki dosyalari depoya yukle. Onemli: ".github" klasoru de yuklenmeli
+   (gizli klasordur; yuklerken "Add file > Upload files" ile klasoru surukle-birak).
+3. Depoda "Actions" sekmesine gir. "APK derle" otomatik baslar (ya da "Run workflow").
+4. Yesil tik cikinca (yaklasik 3-6 dk) calistirmaya tikla, en altta "Artifacts"
+   bolumundeki APK dosyasini indir (zip olarak iner, icinden app-debug.apk cikar).
+5. APK'yi telefona at, ac. "Bilinmeyen kaynaklardan yukleme" izni isteyebilir.
+
+Her iki uygulama icin ayri depo ac (oyun ve hesap makinesi).
+Created by Yagiz Ege
